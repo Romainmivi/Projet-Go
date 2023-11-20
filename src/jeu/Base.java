@@ -7,7 +7,6 @@ private LinkedList<LinkedList<String>> goban;
 	
 	public Base(int l, int h) {
 		goban = new LinkedList<LinkedList<String>>();
-		
 		for (int i=0;i<h;++i) {
 			LinkedList<String> tmp = new LinkedList<>();
 			for(int j=0;j<l;++j) {
